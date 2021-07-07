@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/login.css">
-    <title>Document</title>
+    <title>Register</title>
 </head>
 <body>
 <div class="login">
-    <div>
         <img src="images/brothers-gym.svg" alt="logo" class="image">
         <div class="button-items">
             <div class="button active">
@@ -18,21 +15,28 @@
             <div class="button">
                 <h3 class="button-text-white">Neues Konto</h3>
             </div>
-        </div>
-
-        <form class="login-form">
+    </div>
+        <form class="form-container">
             <input type="text" class="input-field" placeholder="Email Adresse">
             <div class="password">
-            <input type="password" class="input-field" placeholder="Passwort">
-            <img src="images/eye.jpg" class="show-password" alt="show password" />
+                <input type="password" class="input-field" placeholder="Passwort">
+                <img src="images/eye.jpg" class="show-password" alt="show password"/>
             </div>
-            <div class="forgot-pswd">
-            <a href="#">Password vergessen?</a>
+            <div class="password">
+                <input type="password" class="input-field" placeholder="Passwort wiederlhoren">
+                <img src="images/eye.jpg" class="show-password" alt="show password"/>
+
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" class="register-checkbox">
+                <h4>Ja, ich habe die AGB und Hello World</h4>
+            </div>
+            <div class="captcha">
+              <p>CAPTCHA SPACE</p>
             </div>
             <button type="submit" class="submit-btn">Anmelden</button>
         </form>
-</div>
-    </div>
+
     <script src="js/login.js"></script>
 </body>
 </html>

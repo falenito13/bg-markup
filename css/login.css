@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Roboto-B, sans-serif;
 }
 body {
     margin : 0;
@@ -10,71 +11,102 @@ body {
 .login{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .image{
     padding-top: 80px;
-    margin-right: 173px;
-    display: flex;
-    justify-content: center;
+    margin-right: 147px;
 }
 .button-items{
     display: flex;
     flex-direction: row;
-    background-color: #5677fc;
+    background-color: #0a84ff;
     border-radius: 8px;
-}
-.button-group{
-    display: flex;
-    flex-direction: row;
-    padding-top: 70px;
-    justify-content: center;
+    width: 312px;
+    height: 36px;
+    margin-top: 80px;
 }
 .button{
-    background-color: #5677fc;
-    border: #5677fc solid 2px;
-    border-radius: 8px;
-    padding: 7px 37px;
+    background-color: #0a84ff;
+    border-radius: 7px;
+    width: 156px;
+    height: 36px;
 }
-.button-text{
+.button-text-black{
+    text-align: center;
+    padding-top: 5px;
+    color : #000000;
+    font-weight: bold;
+    letter-spacing: -0.09px;
+    line-height: 1.2;
+}
+.button-text-white{
     color: white;
+    padding-top: 5px;
+    letter-spacing: -0.09px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.2;
 }
 .button.active{
-    background-color: white;
-    border: #5677fc solid 2px;
-    border-radius: 8px;
-    padding: 7px 37px
+    background-color: #ffffff;
+    border: #0a84ff solid 2px;
+    border-radius: 7px;
+    width: 156px;
+    height: 36px;
 }
 .login-form{
-    padding-top: 40px;
-    display: flex;
-    justify-content: center;
+    padding-top: 43px;
+}
+.forgot-form{
+    padding-top: 16px;
 }
 .input-field{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 43px;
-    width: 342px;
-    border: #2e3033 solid 1px;
-    border-radius : 4px;
-    margin-top: 15px;
+    height: 40px;
+    width: 312px;
+    background-color: #ffffff;
+    border: #777777 solid 1px;
+    border-radius: 4px;
+    margin-top: 16px;
+    padding: 8px 16px 8px 8px;
 }
 .forgot-pswd{
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    font-size: 20px;
-    color: #5677fc;
+    text-align: center;
+    padding-top: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.09px;
+    font-size: 15px;
+    color: #0a84ff;
+    width: 312px;
+}
+.forgot-descr{
+    padding-bottom: 20px;
+}
+.forgot-descr-group{
+    margin: 78px 0 72px;
+    width: 312px;
+    height: 110px;
+}
+.forgot-descr-group p{
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: -0.34px;
+}
+.forgot-btn{
+    margin-top: 56px;
 }
 .submit-btn{
-    width: 342px;
-    background-color: #5677fc;
+    width: 312px;
+    height: 40px;
+    background-color: #0a84ff;
     color: white;
-    margin-top: 20px;
+    margin-top: 16px;
     font-size: 16px;
     text-align: center;
-    height: 33px;
-    border: #5677fc solid 2px;
+    border: #0a84ff solid 2px;
     border-radius: 6px;
 }
 .password{
@@ -90,4 +122,56 @@ body {
     margin-top: 25px;
     height: 22px;
     cursor: pointer;
+}
+.checkbox-group{
+    padding-top: 17px;
+    display: flex;
+    flex-direction: row;
+}
+.register-checkbox{
+    width: 18px;
+    height: 18px;
+    border: solid 2px  #0a84ff;
+    background-color: #ffffff;
+}
+.checkbox-group h4{
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: -0.34px;
+    width: 283px;
+    height: 44px;
+    margin-left: 20px;
+    padding-right: 115px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+.form-container{
+    padding-top: 43px;
+}
+.captcha{
+    width: 312px;
+    height: 89px;
+    background-color: #d8d8d8;
+    border: solid 1px #979797;
+}
+.captcha p{
+    font-size: 14px;
+    margin-top: 34px;
+    letter-spacing: -0.34px;
+    color : #000000;
+    text-align: center;
+}
+.notification-text{
+    margin-top: 40px;
+    font-size: 14px;
+    width: 312px;
+    height: 88px;
+    line-height: 1.57;
+    letter-spacing: -0.34px;
+}
+.notification-text h4{
+    color: #000000;
+}
+.main-text{
+    padding-top: 78px;
 }

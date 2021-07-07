@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin : 0;
+    padding : 0;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    padding-top: 80px;
+    margin-right: 173px;
+    display: flex;
+    justify-content: center;
+}
+.button-items{
+    display: flex;
+    flex-direction: row;
+    background-color: #5677fc;
+    border-radius: 8px;
+}
+.button-group{
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    justify-content: center;
+}
+.button{
+    background-color: #5677fc;
+    border: #5677fc solid 2px;
+    border-radius: 8px;
+    padding: 7px 37px;
+}
+.button-text{
+    color: white;
+}
+.button.active{
+    background-color: white;
+    border: #5677fc solid 2px;
+    border-radius: 8px;
+    padding: 7px 37px
+}
+.login-form{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 43px;
+    width: 342px;
+    border: #2e3033 solid 1px;
+    border-radius : 4px;
+    margin-top: 15px;
+}
+.forgot-pswd{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #5677fc;
+}
+.submit-btn{
+    width: 342px;
+    background-color: #5677fc;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    height: 33px;
+    border: #5677fc solid 2px;
+    border-radius: 6px;
+}
+.password{
+    display: flex;
+
+}
+.input-field[type="password"]{
+    justify-content: flex-start;
+}
+.show-password{
+    justify-content: flex-end;
+    margin-left: -35px;
+    margin-top: 25px;
+    height: 22px;
+    cursor: pointer;
+}

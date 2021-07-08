@@ -1,94 +1,106 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
 }
-.container{
-    width:100%;
+
+.container {
+    width: 100%;
     max-height: 100%;
     display: flex;
 }
-.logo{
+
+.logo {
     margin: 51px 59px 78px 25px;
 }
-.menu{
+
+.menu {
     min-width: 12%;
     max-width: 15%;
 }
-.menu-list-item{
 
+.menu-list-item {
     list-style-type: none;
-
 }
-.menu-list-item.second{
+
+.menu-list-item.second {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 
-.menu-list-item a{
-
+.menu-list-item a {
     display: block;
     text-decoration: none;
-    color :#000000;
+    color: #000000;
     padding: 14px 18px 14px 28px;
 }
-.notification{
+
+.notification {
     width: 32px;
     height: 32px;
     padding: 8px;
     border-radius: 16px;
     font-size: 13px;
     background-color: #0a84ff;
-    color : white;
+    color: white;
     text-align: center;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
 }
-.menu-list-item:hover{
+
+.menu-list-item:hover {
     background-color: #fafafa;
     color: #000000;
 }
-.menu-list-item a:hover{
+
+.menu-list-item a:hover {
     font-weight: bold;
     line-height: 1.31;
 }
-.main{
+
+.main {
     min-width: 85%;
     max-width: 88%;
     padding-left: 11px;
     background-color: #fafafa;
 }
-.main-header{
+
+.main-header {
     margin: 16px 22px 16px 0;
     height: 32px;
-    border-radius: 17px   ;
+    border-radius: 17px;
     background-color: #0a84ff;
     text-align: center;
     padding-top: 8px;
 }
-.main-header p{
+
+.main-header p {
     text-align: center;
     font-size: 12px;
     color: #ffffff;
 }
-.component-title{
+
+.component-title {
     font-size: 16px;
     font-weight: bold;
     line-height: 1.31;
     letter-spacing: normal;
-    color : #000000;
+    color: #000000;
     padding-top: 13px;
     padding-bottom: 26px;
 }
-.card-group{
+
+.card-group {
     display: flex;
     flex-direction: row;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,7 +110,8 @@ body{
     border-radius: 20px;
     border: solid 2px #0a84ff;
 }
-.card-title{
+
+.card-title {
     width: 90px;
     height: 32px;
     margin: 0 53px 36px;
@@ -110,51 +123,59 @@ body{
     font-size: 12px;
     color: #fafafa;
 }
-.card a{
-    color : #0a84ff;
+
+.card a {
+    color: #0a84ff;
     width: 196px;
     padding: 8px 8px 5px;
     text-align: center;
     border-radius: 7px;
     margin-top: 26px;
 }
-.card img{
+
+.card img {
     width: 32px;
     height: 32px;
     margin: 36px 82px 26px;
     object-fit: contain;
 }
-.component-title-sec{
+
+.component-title-sec {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.component-title-sec img{
+
+.component-title-sec img {
     margin-right: 21px;
 }
-.component-title-sec p{
+
+.component-title-sec p {
     font-size: 16px;
     font-weight: bold;
     line-height: 1.31;
     letter-spacing: normal;
-    color : #000000;
+    color: #000000;
     padding-top: 13px;
     padding-bottom: 26px;
     margin-right: 21px;
 }
-.component-title-sec img{
+
+.component-title-sec img {
     width: 44px;
     height: 44px;
     margin: 0 0 0 763px;
     padding: 11px;
     border-radius: 4px;
 }
-.rectangle-component{
+
+.rectangle-component {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.rectangle-component-item{
+
+.rectangle-component-item {
     height: 44px;
     text-align: center;
     padding-top: 10px;

@@ -1,23 +1,27 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Roboto-B, sans-serif;
 }
+
 body {
-    margin : 0;
-    padding : 0;
+    margin: 0;
+    padding: 0;
 }
-.login{
+
+.login {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.image{
+
+.image {
     padding-top: 80px;
     margin-right: 147px;
 }
-.button-items{
+
+.button-items {
     display: flex;
     flex-direction: row;
     background-color: #0a84ff;
@@ -26,21 +30,24 @@ body {
     height: 36px;
     margin-top: 80px;
 }
-.button{
+
+.button {
     background-color: #0a84ff;
     border-radius: 7px;
     width: 156px;
     height: 36px;
 }
-.button-text-black{
+
+.button-text-black {
     text-align: center;
     padding-top: 5px;
-    color : #000000;
+    color: #000000;
     font-weight: bold;
     letter-spacing: -0.09px;
     line-height: 1.2;
 }
-.button-text-white{
+
+.button-text-white {
     color: white;
     padding-top: 5px;
     letter-spacing: -0.09px;
@@ -48,20 +55,24 @@ body {
     font-weight: bold;
     line-height: 1.2;
 }
-.button.active{
+
+.button.active {
     background-color: #ffffff;
     border: #0a84ff solid 2px;
     border-radius: 7px;
     width: 156px;
     height: 36px;
 }
-.login-form{
+
+.login-form {
     padding-top: 43px;
 }
-.forgot-form{
+
+.forgot-form {
     padding-top: 16px;
 }
-.input-field{
+
+.input-field {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,7 +84,8 @@ body {
     margin-top: 16px;
     padding: 8px 16px 8px 8px;
 }
-.forgot-pswd{
+
+.forgot-pswd {
     text-align: center;
     padding-top: 16px;
     line-height: 1.2;
@@ -82,23 +94,28 @@ body {
     color: #0a84ff;
     width: 312px;
 }
-.forgot-descr{
+
+.forgot-descr {
     padding-bottom: 20px;
 }
-.forgot-descr-group{
+
+.forgot-descr-group {
     margin: 78px 0 72px;
     width: 312px;
     height: 110px;
 }
-.forgot-descr-group p{
+
+.forgot-descr-group p {
     font-size: 14px;
     line-height: 1.57;
     letter-spacing: -0.34px;
 }
-.forgot-btn{
+
+.forgot-btn {
     margin-top: 56px;
 }
-.submit-btn{
+
+.submit-btn {
     width: 312px;
     height: 40px;
     background-color: #0a84ff;
@@ -109,32 +126,37 @@ body {
     border: #0a84ff solid 2px;
     border-radius: 6px;
 }
-.password{
-    display: flex;
 
+.password {
+    display: flex;
 }
-.input-field[type="password"]{
+
+.input-field[type="password"] {
     justify-content: flex-start;
 }
-.show-password{
+
+.show-password {
     justify-content: flex-end;
     margin-left: -35px;
     margin-top: 25px;
     height: 22px;
     cursor: pointer;
 }
-.checkbox-group{
+
+.checkbox-group {
     padding-top: 17px;
     display: flex;
     flex-direction: row;
 }
-.register-checkbox{
+
+.register-checkbox {
     width: 18px;
     height: 18px;
-    border: solid 2px  #0a84ff;
+    border: solid 2px #0a84ff;
     background-color: #ffffff;
 }
-.checkbox-group h4{
+
+.checkbox-group h4 {
     font-size: 14px;
     line-height: 1.57;
     letter-spacing: -0.34px;
@@ -145,23 +167,27 @@ body {
     color: #000000;
     margin-bottom: 17px;
 }
-.form-container{
+
+.form-container {
     padding-top: 43px;
 }
-.captcha{
+
+.captcha {
     width: 312px;
     height: 89px;
     background-color: #d8d8d8;
     border: solid 1px #979797;
 }
-.captcha p{
+
+.captcha p {
     font-size: 14px;
     margin-top: 34px;
     letter-spacing: -0.34px;
-    color : #000000;
+    color: #000000;
     text-align: center;
 }
-.notification-text{
+
+.notification-text {
     margin-top: 40px;
     font-size: 14px;
     width: 312px;
@@ -169,9 +195,11 @@ body {
     line-height: 1.57;
     letter-spacing: -0.34px;
 }
-.notification-text h4{
+
+.notification-text h4 {
     color: #000000;
 }
-.main-text{
+
+.main-text {
     padding-top: 78px;
 }
